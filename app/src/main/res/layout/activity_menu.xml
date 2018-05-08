@@ -29,7 +29,6 @@
             style="@style/menuItem"
             android:text="@string/menu_item_koelkast"/>
 
-
         <TextView
             style="@style/menuItem"
             android:text="@string/menu_item_vriezer"/>

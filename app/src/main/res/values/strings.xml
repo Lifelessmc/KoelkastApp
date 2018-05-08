@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Koelkast App</string>
+    <!-- Menu Items -->
+    <string name="menu_item_koelkast">Koelkast</string>
+    <string name="menu_item_vriezer">Vriezer</string>
+    <string name="menu_item_kast">Kast</string>
+    <string name="menu_item_boodschappenlijst">Boodschappenlijst</string>
 </resources>

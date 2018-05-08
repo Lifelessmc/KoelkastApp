@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="koelkastapp.projectgroepje4.com.koelkastapp.MenuActivity">
+    tools:context="koelkastapp.projectgroepje4.com.koelkastapp.MenuActivity"
+    android:orientation="vertical">
 
-    <TextView
-        style="@style/title"
-        android:text="Hello World!"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
 
-</RelativeLayout>
+        <TextView
+            style="@style/title"
+            android:text="Hello World!"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/menuItem"
+            android:text="@string/menu_item_koelkast"/>
+
+
+        <TextView
+            style="@style/menuItem"
+            android:text="@string/menu_item_vriezer"/>
+
+        <TextView
+            style="@style/menuItem"
+            android:text="@string/menu_item_kast"/>
+
+        <TextView
+            style="@style/menuItem"
+            android:text="@string/menu_item_boodschappenlijst"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

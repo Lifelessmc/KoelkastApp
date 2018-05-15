@@ -26,18 +26,22 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/koelkastMenuItem"
             style="@style/menuItem"
             android:text="@string/menu_item_koelkast"/>
 
         <TextView
+            android:id="@+id/vriezerMenuItem"
             style="@style/menuItem"
             android:text="@string/menu_item_vriezer"/>
 
         <TextView
+            android:id="@+id/kastMenuItem"
             style="@style/menuItem"
             android:text="@string/menu_item_kast"/>
 
         <TextView
+            android:id="@+id/boodschappenlijstMenuItem"
             style="@style/menuItem"
             android:text="@string/menu_item_boodschappenlijst"/>
 

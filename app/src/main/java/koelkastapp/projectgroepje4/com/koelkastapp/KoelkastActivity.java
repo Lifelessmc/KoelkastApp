@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class KoelkastActivity extends AppCompatActivity {
 
-    // Views
+    // Add view variables
     private Button addButton;
 
     @Override
@@ -18,14 +18,16 @@ public class KoelkastActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_koelkast);
 
-        // Views
+        // Initialize view variables
         addButton = findViewById(R.id.addButton);
 
-        // OnclickListener
+        // Add OnclickListener to views
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Intent to go to AddtoKoelkastActivity. (new Intent(From activity, To activity);)
                 Intent intent = new Intent(KoelkastActivity.this, AddToKoelkastActivity.class);
+                // Start the activity
                 startActivity(intent);
             }
         });

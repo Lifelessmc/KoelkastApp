@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Koelkast App</string>
+    <string name="app_name">Koelkast app</string>
     <!-- Menu Items -->
     <string name="menu_item_koelkast">Koelkast</string>
     <string name="menu_item_vriezer">Vriezer</string>

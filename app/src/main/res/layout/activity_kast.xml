@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".KastActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In deze kast zit Slen ;-)"
+        android:textAlignment="center"/>
+
 </LinearLayout>

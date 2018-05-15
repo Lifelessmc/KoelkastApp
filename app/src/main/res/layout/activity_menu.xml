@@ -7,6 +7,7 @@
     tools:context="koelkastapp.projectgroepje4.com.koelkastapp.MenuActivity"
     android:orientation="vertical">
 
+    <!-- Title -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +19,7 @@
 
     </RelativeLayout>
 
-
+    <!-- Menu -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

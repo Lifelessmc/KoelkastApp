@@ -5,4 +5,6 @@
     <string name="menu_item_vriezer">Vriezer</string>
     <string name="menu_item_kast">Kast</string>
     <string name="menu_item_boodschappenlijst">Boodschappenlijst</string>
+    <string name="add">Toevoegen</string>
+    <!-- Other -->
 </resources>

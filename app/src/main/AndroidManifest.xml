@@ -19,7 +19,8 @@
         <activity android:name=".KoelkastActivity" />
         <activity android:name=".VriezerActivity" />
         <activity android:name=".KastActivity" />
-        <activity android:name=".BoodschappenlijstActivity"></activity>
+        <activity android:name=".BoodschappenlijstActivity" />
+        <activity android:name=".AddToKoelkastActivity"></activity>
     </application>
 
 </manifest>

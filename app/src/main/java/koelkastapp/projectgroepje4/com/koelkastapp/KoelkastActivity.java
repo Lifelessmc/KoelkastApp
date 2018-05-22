@@ -18,6 +18,18 @@ public class KoelkastActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_koelkast);
 
+        // Import views
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        // Back button onClickListener
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KoelkastActivity.this, MenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Initialize view variables
         addButton = findViewById(R.id.addButton);
 

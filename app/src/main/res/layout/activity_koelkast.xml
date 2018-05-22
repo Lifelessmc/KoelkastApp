@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".KoelkastActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
     <!-- Button -->
     <Button
         android:id="@+id/addButton"
@@ -14,5 +20,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:text="@string/add" />
+
 
 </RelativeLayout>

@@ -11,5 +11,10 @@
         android:layout_height="wrap_content"
         android:text="In deze kast zit Slen ;-)"
         android:textAlignment="center"/>
-
+    <Button
+        activity:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@voeg toe aan koelkast"
+        />
 </LinearLayout>

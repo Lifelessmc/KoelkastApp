@@ -14,4 +14,33 @@
         app:navigationIcon="?attr/homeAsUpIndicator" />
 
 
+    <TextView
+        style="@style/title"
+        android:text="@string/add"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product"
+        android:paddingBottom="20dp"
+        android:maxLength="40"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:id="@+id/spin"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/houdbaarheidsdatum"
+        android:paddingBottom="20dp"
+        android:maxLength="40"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"/>
+
 </LinearLayout>

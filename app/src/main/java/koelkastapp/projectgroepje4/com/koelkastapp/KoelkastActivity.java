@@ -1,10 +1,9 @@
 package koelkastapp.projectgroepje4.com.koelkastapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,7 +18,7 @@ public class KoelkastActivity extends AppCompatActivity {
         setContentView(R.layout.activity_koelkast);
 
         // Import views
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
 
         // Back button onClickListener
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

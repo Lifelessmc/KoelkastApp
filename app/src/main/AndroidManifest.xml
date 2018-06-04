@@ -18,9 +18,17 @@
         </activity>
         <activity android:name=".KoelkastActivity" />
         <activity android:name=".VriezerActivity" />
-        <activity android:name=".KastActivity" />
+
+        <activity android:name=".KastActivity">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
         <activity android:name=".BoodschappenlijstActivity" />
-        <activity android:name=".AddToKoelkastActivity"></activity>
+        <activity android:name=".AddToKoelkastActivity"/>
     </application>
 
 </manifest>

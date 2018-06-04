@@ -6,5 +6,12 @@
     <string name="menu_item_kast">Kast</string>
     <string name="menu_item_boodschappenlijst">Boodschappenlijst</string>
     <string name="add">Toevoegen</string>
+    <string name="back">Back</string>
+    <string name="koelkast_producten">Koelkast</string>
+    <string name="product">Product</string>
+    <string name="soort">Soort</string>
+    <string name="houdbaarheidsdatum">Houdbaarheidsdatum</string>
+    <string name="spin">spin</string>
+    <string name="recyclerView">recyclerview</string>
     <!-- Other -->
 </resources>

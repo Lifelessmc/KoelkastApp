@@ -9,16 +9,16 @@ import android.widget.Button;
 
 public class VriezerActivity extends AppCompatActivity {
 
+    // Add view variables
     private Button addButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vriezer);
 
-        // Import views
         Toolbar toolbar = findViewById(R.id.toolbar);
 
-        // Back button onClickListener
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,6 +27,15 @@ public class VriezerActivity extends AppCompatActivity {
             }
         });
 
+        addButton = findViewById(R.id.addButton);
 
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(VriezerActivity.this, AddToKoelkastActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
+
